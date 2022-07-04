@@ -5,6 +5,9 @@ https://cleanup.pictures
 # Free mail generator
 https://www.emailgenerator.org
 
+# Pixel art editor
+https://www.piskelapp.com/
+
 
 ###### USE FUL TOR LINKS ######
 # OnionLinks
