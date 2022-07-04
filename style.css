@@ -1,1 +1,11 @@
+*{
+    color: black;
+}
 
+.logo{
+    color: #395379;
+    font-size: 100px;
+    font-style: italic;
+    line-height: 9px;
+    text-align: center;
+}
