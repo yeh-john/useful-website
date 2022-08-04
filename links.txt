@@ -27,3 +27,6 @@ https://builtwith.com
 
 # Logos
 https://www.logotouse.com
+
+# SNS analyze tool
+https://phlanx.com
