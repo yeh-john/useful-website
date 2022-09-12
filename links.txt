@@ -25,8 +25,8 @@ https://inspirobot.me
 # Analyze website tool
 https://builtwith.com
 
-# Logos
-https://www.logotouse.com
+# Logo maker
+https://www.logomaker.net
 
 # SNS analyze tool
 https://phlanx.com
