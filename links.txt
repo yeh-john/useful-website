@@ -33,3 +33,6 @@ https://phlanx.com
 
 # Mining pool stats
 https://miningpoolstats.stream
+
+# Online PDF editor
+https://www.sejda.com/pdf-editor
