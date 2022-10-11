@@ -30,3 +30,6 @@ https://www.logomaker.net
 
 # SNS analyze tool
 https://phlanx.com
+
+# Mining pool stats
+https://miningpoolstats.stream
