@@ -44,6 +44,10 @@ h1{
     color: blue;
 }
 
+.content-div .link a:hover{
+    color: darkblue;
+}
+
 .content-div .link{
     display: flex;
     flex-direction: column;
