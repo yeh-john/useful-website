@@ -36,3 +36,9 @@ https://miningpoolstats.stream
 
 # Online PDF editor
 https://www.sejda.com/pdf-editor
+
+# Deleted domain searcher1
+https://member.expireddomains.net
+
+# Deletec domain searcher2
+https://justdropped.com
