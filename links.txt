@@ -42,3 +42,6 @@ https://member.expireddomains.net
 
 # Deletec domain searcher2
 https://justdropped.com
+
+# CPU ranking
+https://www.cpubenchmark.net/socketType.html
