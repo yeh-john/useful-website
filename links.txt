@@ -45,3 +45,9 @@ https://justdropped.com
 
 # CPU ranking
 https://www.cpubenchmark.net/socketType.html
+
+# Taiwan shelter map
+https://kiang.github.io/air_raid_shelter/
+
+# Check car values
+https://www.kbb.com
