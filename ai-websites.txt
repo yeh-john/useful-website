@@ -3,3 +3,6 @@ https://lp.ai-copywriter.jp
 
 # Online chat ai
 https://www.perplexity.ai
+
+# Sell your prompt
+https://promptbase.com/
