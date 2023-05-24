@@ -53,4 +53,7 @@ https://kiang.github.io/air_raid_shelter/
 https://www.kbb.com
 
 # Google keyword planner
-https://www.googleadservices.com/pagead/
+https://www.googleadservices.com/pagead
+
+# Free shopify theme
+https://elements.envato.com/cms-templates/shopify
