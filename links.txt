@@ -57,3 +57,6 @@ https://www.googleadservices.com/pagead
 
 # Free shopify theme
 https://elements.envato.com/cms-templates/shopify
+
+# Free sms
+https://smsreceivefree.com/
