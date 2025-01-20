@@ -1,8 +1,11 @@
 # Catchy (japanese writing ai)
 https://lp.ai-copywriter.jp
 
-# Online chat ai
+#  serach data from website and output
 https://www.perplexity.ai
+
+#  serach data from website and output JPver
+https://felo.ai/search
 
 # Sell your prompt
 https://promptbase.com/
