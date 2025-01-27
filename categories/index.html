@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Useful Websites Directory</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Useful Websites Directory</h1>
+        <p>Discover the best services across various categories.</p>
+    </header>
+
+    <div class="content">
+        <h2>Explore Categories</h2>
+
+        <ul class="category-list">
+            
+            <li class="category-item"><a href="flight.html">Flight Booking Services</a></li>
+            <li class="category-item"><a href="#">Best Music Websites</a></li>
+            <li class="category-item"><a href="#">AI Tools</a></li>
+            <li class="category-item"><a href="#">Crypto Services</a></li>
+            <li class="category-item"><a href="#">Web Applications</a></li>
+
+            <!-- Add more categories here as you expand -->
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 <a href="https://github.com/yeh-john" target="_blank">Yeh John</a>. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript to show alert when clicking on links with href="#"
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href="#"]');
+            
+            links.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault();  // Prevents the default behavior (e.g., page scroll)
+                    alert('Page not ready');
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f7f7f7;
+        color: #333;
+    }
+
+    header {
+        background-color: #395379;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    header h1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    header p {
+        font-size: 1.2em;
+        opacity: 0.8;
+    }
+
+    .content {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h2 {
+        font-size: 2.5em;
+        color: #395379;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .category-list {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .category-item {
+        background-color: #fff;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .category-item a {
+        font-size: 1.5em;
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    .category-item a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+    .category-item:hover {
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        background-color: #f1f1f1;
+    }
+
+    footer p {
+        font-size: 1em;
+        color: #555;
+    }
+
+    footer a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        .content h2 {
+            font-size: 2em;
+        }
+
+        .category-item {
+            padding: 15px;
+        }
+    }
+</style>

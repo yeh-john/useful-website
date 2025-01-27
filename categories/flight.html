@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking Services</title>
+</head>
+
+<body>
+
+    <div class="content">
+        <h2>Flight Booking Services</h2>
+
+        <ul class="service-list">
+            <li class="service-item">
+                <h3>Flight Search on Skiplagged</h3>
+                <p>Find the best flight deals by searching for hidden city tickets.</p>
+                <a href="https://skiplagged.com/" target="_blank" class="service-link">Visit Service - https://skiplagged.com/</a>
+            </li>
+            
+            <li class="service-item">
+                <h3>Flight Deals on Kayak</h3>
+                <p>Search for flights, hotels, and car rentals to get the best prices.</p>
+                <a href="https://kayak.com/" target="_blank" class="service-link">Visit Service - https://kayak.com/</a>
+            </li>
+            
+            <li class="service-item">
+                <h3>Flight Search on Skyscanner</h3>
+                <p>Compare flight prices from various airlines and travel agencies.</p>
+                <a href="https://skyscanner.com/" target="_blank" class="service-link">Visit Service - https://skyscanner.com/</a>
+            </li>
+            
+            <li class="service-item">
+                <h3>Flight Deals on Momondo</h3>
+                <p>Discover the best flight deals and compare airline prices.</p>
+                <a href="https://momondo.com/" target="_blank" class="service-link">Visit Service - https://momondo.com/</a>
+            </li>
+            
+            <li class="service-item">
+                <h3>Flight Search on ITA Matrix</h3>
+                <p>Use this powerful tool to search and analyze flight data.</p>
+                <a href="https://matrix.itasoftware.com/" target="_blank" class="service-link">Visit Service - https://matrix.itasoftware.com/</a>
+            </li>            
+        </ul>
+    </div>
+
+    <!-- Footer with copyright notice and GitHub link -->
+    <footer>
+        <p>&copy; 2025 <a href="https://github.com/yeh-john" target="_blank">Yeh John</a>. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript for improving user interaction, highlighting visited links and changing color of visited services
+        document.addEventListener('DOMContentLoaded', function () {
+            const serviceLinks = document.querySelectorAll('.service-link');
+
+            serviceLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    // Highlight visited link
+                    link.style.color = '#28a745';
+                });
+            });
+
+            // Optional: you can also add a "highlight" effect when users hover over links
+            serviceLinks.forEach(link => {
+                link.addEventListener('mouseenter', function () {
+                    link.style.color = '#0056b3'; // Change color on hover
+                });
+
+                link.addEventListener('mouseleave', function () {
+                    link.style.color = ''; // Reset color when hover ends
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        background-color: #f7f7f7;
+        color: #333;
+    }
+
+    header {
+        background-color: #395379;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    header h1 {
+        font-size: 3.5em;
+        font-weight: bold;
+    }
+
+    header p {
+        font-size: 1.2em;
+        margin-top: 10px;
+        opacity: 0.8;
+    }
+
+    .content {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h2 {
+        font-size: 2.5em;
+        color: #395379;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .service-list {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .service-item {
+        background-color: #fff;
+        padding: 20px;
+        margin: 15px 0;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .service-item:hover {
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+    }
+
+    .service-item h3 {
+        font-size: 1.8em;
+        color: #395379;
+    }
+
+    .service-item p {
+        font-size: 1.1em;
+        margin-bottom: 15px;
+        color: #555;
+    }
+
+    .service-item a {
+        font-size: 1.1em;
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    .service-item a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+    /* Footer styles */
+    footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        background-color: #f1f1f1;
+    }
+
+    footer p {
+        font-size: 1em;
+        color: #555;
+    }
+
+    footer a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1em;
+        }
+
+        .content h2 {
+            font-size: 2em;
+        }
+
+        .service-item {
+            padding: 15px;
+        }
+    }
+</style>
