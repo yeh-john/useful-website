@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Help Service</title>
+</head>
+
+<body>
+
+    <div class="content">
+        <h2>Student Help Service</h2>
+
+        <ul class="service-list">
+            <li class="service-item">
+                <h3>AI Text Humanizer</h3>
+                <p>Transform AI-generated text into more natural, human-like writing. Useful for students refining AI-generated essays.</p>
+                <a href="https://zayuvalya.github.io/AI-Text-Humanizer/" target="_blank" class="service-link">Visit Service - https://zayuvalya.github.io/AI-Text-Humanizer/</a>
+            </li>
+
+            <li class="service-item">
+                <h3>Quillbot AI Content Detector</h3>
+                <p>Check whether your content appears AI-written or human-written. Ideal for students wanting to verify their work before submitting.</p>
+                <a href="https://quillbot.com/ai-content-detector" target="_blank" class="service-link">Visit Service - https://quillbot.com/ai-content-detector</a>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 <a href="https://github.com/yeh-john" target="_blank">yeh-john</a>. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const serviceLinks = document.querySelectorAll('.service-link');
+
+            serviceLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    link.style.color = '#28a745';
+                });
+
+                link.addEventListener('mouseenter', function () {
+                    link.style.color = '#0056b3';
+                });
+
+                link.addEventListener('mouseleave', function () {
+                    link.style.color = '';
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
+
+<!--Start css ########################################################################################### -->
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        line-height: 1.6;
+        background-color: #f7f7f7;
+        color: #333;
+    }
+
+    .content {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h2 {
+        font-size: 2.5em;
+        color: #395379;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .service-list {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .service-item {
+        background-color: #fff;
+        padding: 20px;
+        margin: 15px 0;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .service-item:hover {
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+    }
+
+    .service-item h3 {
+        font-size: 1.8em;
+        color: #395379;
+    }
+
+    .service-item p {
+        font-size: 1.1em;
+        margin-bottom: 15px;
+        color: #555;
+    }
+
+    .service-item a {
+        font-size: 1.1em;
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    .service-item a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        background-color: #f1f1f1;
+    }
+
+    footer p {
+        font-size: 1em;
+        color: #555;
+    }
+
+    footer a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    footer a:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+        .content h2 {
+            font-size: 2em;
+        }
+
+        .service-item {
+            padding: 15px;
+        }
+    }
+</style>
